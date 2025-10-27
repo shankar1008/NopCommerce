@@ -1,0 +1,16 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+yarn.lock
+
+# Runtime data
+test-data/testData.json.backup
+pids
+*.pid
+*.seed
+*.pid.lock

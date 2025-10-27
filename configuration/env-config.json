@@ -1,0 +1,15 @@
+{
+  "environment":
+  {
+    "test":
+    {
+      "url": "https://webapp-xgczr7dk5pfqs.azurewebsites.net",
+      "apiUrl": "https://api.github.com"
+    },
+    "pre-prod":
+    {
+      "url": "https://webapp-xgczr7dk5pfqs.azurewebsites.net",
+      "apiUrl": "https://api.github.com"
+    }
+  }
+}

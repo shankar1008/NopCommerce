@@ -1,0 +1,36 @@
+{
+  "name": "nopcommerce",
+  "version": "1.0.0",
+  "description": "Test Automation UI Assignment ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:registration": "npx playwright test tests/registration.spec.ts",
+    "test:login": "npx playwright test tests/login.spec.ts",
+    "test:parallel": "npx playwright test --workers=2",
+    "report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://test-star-students@dev.azure.com/test-star-students/TestStar/_git/TestStar.Test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^24.7.2",
+    "ts-essentials": "^10.1.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "global": "^4.4.0",
+    "jest": "^30.2.0"
+  }
+}

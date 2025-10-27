@@ -1,0 +1,40 @@
+{
+  "users": {
+    "valid": {
+      "email": "test@email.com",
+      "password": "Test@123"
+    },
+    "invalid": {
+      "email": "wrong@email.com",
+      "password": "wrongpassword"
+    },
+    "newUser": {
+      "firstName": "Daniel",
+      "lastName": "Svenson",
+      "email": " ",
+      "password": "Secret@123",
+      "confirmPassword": "Secret@123"
+    },
+    "products": {
+      "searchTerm": "laptop",
+      "category": "Computers",
+      "manufacturer": "Lenovo"
+    },
+    "shipping": {
+      "firstName": "Erik",
+      "lastName": "Clapton",
+      "email": "erik.clapton@email.com",
+      "country": "Sweden",
+      "city": "Malmo",
+      "address": "123 Malmovagen",
+      "zipCode": "22101",
+      "phoneNumber": "333-3210"
+    },
+    "runtime": {
+      "registerdEmail": ""
+    }
+  },
+  "runtime": {
+    "registeredEmail": "testuser_1761387756145@automation.test"
+  }
+}
